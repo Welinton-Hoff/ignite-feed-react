@@ -1,10 +1,6 @@
-import { Header } from "./components/Header";
+import "src/styles/global.css";
+import { Feed } from "src/pages/Feed";
 
 export function App() {
-  return (
-    <div>
-      <Header />
-      <h1>Hy motherfucker</h1>
-    </div>
-  );
+  return <Feed />;
 }
