@@ -1,11 +1,19 @@
 import styles from "./styles.module.css";
 
-export function Avatar() {
+interface IAvatarProps {
+  src: string;
+  alt: string;
+  hasBorder?: boolean;
+}
+
+export function Avatar(props: Readonly<IAvatarProps>) {
+  const { src, alt, hasBorder = true } = props;
+
   return (
     <img
-      alt="Avatar"
-      className={styles.avatar}
-      src="https://github.com/Welinton-Hoff.png"
+      alt={alt}
+      src={src}
+      className={hasBorder ? styles.avatarWithBorder : styles.avatar}
     />
   );
 }

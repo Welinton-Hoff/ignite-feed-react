@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header time {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}
+
+.author {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorInfo strong {
+  line-height: 1.6;
+  color: var(--gray-100);
+}
+
+.authorInfo span {
+  line-height: 1.6;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}
