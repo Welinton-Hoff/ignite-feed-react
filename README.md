@@ -17,7 +17,7 @@ ew-image)
 
 ## About the Project
 
-**Ignite Feed React** is a React JS application designed to simulate a simple social media feed. Users can:
+**Ignite Feed** is a React JS application designed to simulate a simple social media feed. Users can:
 - View posts and comments
 - Add new comments
 - Leave likes on posts
